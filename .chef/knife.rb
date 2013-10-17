@@ -1,5 +1,6 @@
 raise 'You MUST provide a CHEF_ORGANIZATION' if ENV['CHEF_ORGANIZATION'].nil?
 raise 'You MUST provide a CHEF_USER_NAME' if ENV['CHEF_USER_NAME'].nil?
+
 ORG 										= ENV['CHEF_ORGANIZATION']
 USER 										= ENV['CHEF_USER_NAME']
 current_dir 						= File.dirname(__FILE__)
