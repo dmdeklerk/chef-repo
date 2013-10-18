@@ -1,7 +1,7 @@
 {
   "sources": {
     "pricetool": {
-      "path": "./cookbooks/pricetool"
+      "path": "."
     },
     "git": {
       "locked_version": "2.6.0"
